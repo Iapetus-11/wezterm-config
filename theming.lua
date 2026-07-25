@@ -22,6 +22,8 @@ function module.apply_color_scheme(config, color_scheme_name)
 		button_hover_bg = color_scheme.foreground,
 	}
 
+	config.window_background_opacity = 0.9
+
 	config.colors = {
 		tab_bar = {
 			background = color_scheme.background,
