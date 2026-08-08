@@ -8,7 +8,6 @@ function module.apply_color_scheme(config, color_scheme_name)
 
 	local color_scheme = wezterm.get_builtin_color_schemes()[color_scheme_name]
 
-	config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 	config.integrated_title_button_color = color_scheme.foreground
 
 	config.window_frame = {
