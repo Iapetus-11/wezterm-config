@@ -5,7 +5,7 @@ function module.apply_config(config)
 	config.font_size = 12.5
 	config.initial_cols = 110
 	config.initial_rows = 28
-	config.macos_window_background_blur = 20
+	config.macos_window_background_blur = 30
 end
 
 return module
